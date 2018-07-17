@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
 
     // URL to query the movie database
     private static final String MOVIE_MOST_POPULAR_URL =
-            "https://api.themoviedb.org/3/movie/popular?&api_key=36bfad9d0ba02dad9b3c2c167b27d286";
+            "https://api.themoviedb.org/3/movie/popular?&api_key=[redacted]";
 
     private static final String MOVIE_HIGH_RATED_URL =
-            "https://api.themoviedb.org/3/movie/top_rated?&api_key=36bfad9d0ba02dad9b3c2c167b27d286";
+            "https://api.themoviedb.org/3/movie/top_rated?&api_key=[redacted]";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
