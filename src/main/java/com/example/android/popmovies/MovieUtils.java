@@ -27,7 +27,7 @@ public class MovieUtils {
     private final static String PARAM_V = "v";
     private static String BASE_URL = "http://api.themoviedb.org/3/movie";
     private final static String PARAM_API_KEY = "api_key";
-    private static final String API_KEY = "36bfad9d0ba02dad9b3c2c167b27d286";
+    private static final String API_KEY = "[redacted]";
 
     private MovieUtils(){
     }
