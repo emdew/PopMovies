@@ -1,4 +1,4 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,15 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.android.popmovies.R;
+import com.example.android.popmovies.models.Reviews;
+
 import java.util.List;
 
 public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.ReviewViewHolder> {
 
     private Context mContext;
-    List<Reviews> mReviewsList;
-    Reviews mReview;
-    TextView mAuthor;
-    TextView mContent;
+    private List<Reviews> mReviewsList;
 
     public ReviewsAdapter(Context context, List<Reviews> reviewsList) {
         mContext = context;

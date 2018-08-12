@@ -1,7 +1,9 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.loaders;
 
 import android.support.v4.content.AsyncTaskLoader;
 import android.content.Context;
+
+import com.example.android.popmovies.models.Reviews;
 
 import java.net.URL;
 import java.util.List;

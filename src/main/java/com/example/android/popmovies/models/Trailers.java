@@ -1,4 +1,4 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.models;
 
 public class Trailers {
 

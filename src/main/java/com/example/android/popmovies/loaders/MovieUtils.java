@@ -1,8 +1,12 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.loaders;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
+
+import com.example.android.popmovies.models.Movies;
+import com.example.android.popmovies.models.Reviews;
+import com.example.android.popmovies.models.Trailers;
 
 import org.json.JSONArray;
 import org.json.JSONException;

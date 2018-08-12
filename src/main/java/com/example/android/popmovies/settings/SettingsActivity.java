@@ -1,8 +1,10 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.settings;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import com.example.android.popmovies.R;
 
 import java.util.Objects;
 

@@ -1,8 +1,10 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v7.preference.PreferenceManager;
+
+import com.example.android.popmovies.R;
 
 public class MoviePreferences {
 

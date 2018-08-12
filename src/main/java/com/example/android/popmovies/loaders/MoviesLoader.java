@@ -1,8 +1,10 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.loaders;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.content.AsyncTaskLoader;
+
+import com.example.android.popmovies.models.Movies;
 
 import java.util.List;
 

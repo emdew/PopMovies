@@ -1,4 +1,4 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,7 +19,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.android.popmovies.MoviesAdapter.ListItemClickListener;
+import com.example.android.popmovies.settings.MoviePreferences;
+import com.example.android.popmovies.models.Movies;
+import com.example.android.popmovies.R;
+import com.example.android.popmovies.adapters.MoviesAdapter;
+import com.example.android.popmovies.adapters.MoviesAdapter.ListItemClickListener;
+import com.example.android.popmovies.settings.SettingsActivity;
+import com.example.android.popmovies.loaders.MoviesLoader;
 
 import java.util.ArrayList;
 import java.util.List;

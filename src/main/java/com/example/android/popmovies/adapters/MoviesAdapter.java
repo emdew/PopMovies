@@ -1,4 +1,4 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.example.android.popmovies.activities.MovieDetailsActivity;
+import com.example.android.popmovies.models.Movies;
+import com.example.android.popmovies.R;
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 

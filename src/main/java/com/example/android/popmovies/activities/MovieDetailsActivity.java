@@ -1,4 +1,4 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.activities;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -24,7 +24,20 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.popmovies.TrailersAdapter.ListItemClickListener;
+import com.example.android.popmovies.AppDatabase;
+import com.example.android.popmovies.AppExecutors;
+import com.example.android.popmovies.MovieDetailsViewModel;
+import com.example.android.popmovies.MovieDetailsViewModelFactory;
+import com.example.android.popmovies.loaders.MovieUtils;
+import com.example.android.popmovies.models.Movies;
+import com.example.android.popmovies.R;
+import com.example.android.popmovies.models.Reviews;
+import com.example.android.popmovies.models.Trailers;
+import com.example.android.popmovies.adapters.TrailersAdapter;
+import com.example.android.popmovies.adapters.TrailersAdapter.ListItemClickListener;
+import com.example.android.popmovies.adapters.ReviewsAdapter;
+import com.example.android.popmovies.loaders.ReviewsLoader;
+import com.example.android.popmovies.loaders.TrailersLoader;
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 

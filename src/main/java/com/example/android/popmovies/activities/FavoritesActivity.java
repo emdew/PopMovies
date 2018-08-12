@@ -1,4 +1,4 @@
-package com.example.android.popmovies;
+package com.example.android.popmovies.activities;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -8,6 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+
+import com.example.android.popmovies.AppDatabase;
+import com.example.android.popmovies.MainViewModel;
+import com.example.android.popmovies.models.Movies;
+import com.example.android.popmovies.R;
+import com.example.android.popmovies.adapters.MoviesAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
